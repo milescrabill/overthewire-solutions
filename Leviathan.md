@@ -86,7 +86,7 @@ pass is `UgaoFee4li`
 
     ls 
     ./leviathan6
-    for i in {1000..9999}; do echo $i; if ./leviathan6 $i > /dev/null; then break; fi; done
+    for i in {1000..9999}; do echo $i; ./leviathan6 $i; done
     ./leviathan6 7123
     cat /etc/leviathan_pass/leviathan7
 
